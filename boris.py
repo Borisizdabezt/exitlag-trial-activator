@@ -57,7 +57,7 @@ ssl_context.verify_mode = ssl.CERT_NONE
 print("")
 print("")
 
-print("Exitlag Trial Activation made by Boris")
+print("Exitlag Trial Activation remake by Boris")
 print("Version: Beta 1.0")
 print("Make sure your Exitlag's password is borisizdabezt")
 email = input("Your Exitlag's mail: ")
