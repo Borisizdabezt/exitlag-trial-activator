@@ -7,7 +7,7 @@ import base64
 import ctypes
 ctypes.windll.kernel32.SetConsoleTitleW("Exitlag Trial Activation Beta 1.0")
 import os
-os.system('color 3b')
+os.system('color 0a')
 message2 = "Borisizdabezt"
 message_bytes2 = message2.encode('ascii')
 base64_bytes2 = base64.b64encode(message_bytes2)
