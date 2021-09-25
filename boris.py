@@ -139,5 +139,3 @@ async def initialize_ws_and_send_request():
 
 
 asyncio.get_event_loop().run_until_complete(initialize_ws_and_send_request())
-print("")
-print(""Have a nice game!"")
