@@ -72,9 +72,9 @@ _uri = "wss://ws01.exitlag.com/exitlag_client"
 # func to print beautifully an byte array
 def pb(_bytes, stage):
     if stage == 0:
-        logo = "[ACTIVATING]"
+        logo = "[CHANGING]"
     else:
-        logo = "[ACTIVATED]"
+        logo = "[CHANGED]"
     print("\n" + logo, end=' ')
     for _x in _bytes:
         print(hex(_x), end=', ')
