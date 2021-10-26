@@ -2,42 +2,15 @@ import asyncio
 import ssl
 from random import randint
 from hashlib import sha256
+import hashlib
 import websockets
 import base64
 import ctypes
-ctypes.windll.kernel32.SetConsoleTitleW("Exitlag Trial Activation Beta 1.0")
+ctypes.windll.kernel32.SetConsoleTitleW("Exitlag Trial Activation Beta 2.0")
 import os
 os.system('color 0a')
-message2 = "Borisizdabezt"
-message_bytes2 = message2.encode('ascii')
-base64_bytes2 = base64.b64encode(message_bytes2)
-base64_message2 = base64_bytes2.decode('ascii')
 
-base64_message = 'Qm9yaXM='
-base64_bytes = base64_message.encode('ascii')
-message_bytes = base64.b64decode(base64_bytes)
-message = message_bytes.decode('ascii')
 
-print("Please login to continue Exitlag Trial Activation!")
-print("Contact me kostyliev-boris@mail.ru for account.")
-complete = False
-user = {message : base64_message2}
- 
-while not complete:
-    username = input("Username: ")
-    password = input("Password: ")
-    if username == user and password == password:
-        continue
-    elif username not in user:
-        print("This is not a valid username, input username again!")
-        continue
-    elif password != user[username]:
-        print(f"Password is not valid for {username}. ")
-        continue
-    elif password == user[username]:
-        print(f"Thank you for logging on. ")
-        complete = True
-        
 
 print("")
 print("")
@@ -58,11 +31,22 @@ print("")
 print("")
 
 print("Exitlag Trial Activation remake by Boris")
-print("Version: Beta 1.0")
-print("Make sure your Exitlag's password is borisizdabezt")
+print("Version: Beta 2.0")
+
 email = input("Your Exitlag's mail: ")
+
+# Exitlag's password
+exitlagpassword = input("Your password is: ")
+# initializing string
+str2hash = 'exitlagpassword'
+
+# encoding password using encode()
+# then sending to md5()
+result = hashlib.md5(str2hash.encode())
+
+
 # Exitlag's password hash to activate Exitlag account
-password = "55d45f245fd9a931d898791bcbb175470f029e10a00e3615be6eb8a0f3331ffd"  # some_hash('borisizdabezt'+unknown_key)
+password = 'result'  # some_hash('result')
 
 
 # the endpoint to connect with the websocket
@@ -72,9 +56,9 @@ _uri = "wss://ws01.exitlag.com/exitlag_client"
 # func to print beautifully an byte array
 def pb(_bytes, stage):
     if stage == 0:
-        logo = "[CHANGING]"
+        logo = "[CR@CKING]"
     else:
-        logo = "[CHANGED]"
+        logo = "[CR@CKED]"
     print("\n" + logo, end=' ')
     for _x in _bytes:
         print(hex(_x), end=', ')
@@ -83,9 +67,9 @@ def pb(_bytes, stage):
 from tqdm import tqdm
 import time
 
-for i in tqdm (range (101), 
+for i in tqdm (range (100), 
                desc="Loading files…", 
-               ascii=False, ncols=75):
+               ascii=True, ncols=75):
     time.sleep(0.01)
       
 print("Loaded! Please wait for moment.")
@@ -139,3 +123,4 @@ async def initialize_ws_and_send_request():
 
 
 asyncio.get_event_loop().run_until_complete(initialize_ws_and_send_request())
+print("Cre: gatolouco")
