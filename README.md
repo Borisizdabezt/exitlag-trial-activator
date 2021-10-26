@@ -2,7 +2,7 @@
 Sorry gatolouco!
 
 If it shows it, your account will be activated
-![image](https://user-images.githubusercontent.com/90611639/138871325-92fc1f30-b1e8-49f5-b372-64e8bef4e568.png)
+![image](https://user-images.githubusercontent.com/90611639/138871579-00128ee9-a926-4845-9df7-9637176c5d2e.png)
 
 
 If it shows it, your account wont be activated
