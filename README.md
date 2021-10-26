@@ -6,5 +6,6 @@ If it shows it, your account will be activated
 
 
 If it shows it, your account wont be activated
-![image](https://user-images.githubusercontent.com/90611639/138871265-dfa5ff97-779e-406e-b78f-29d218386d05.png)
+![image](https://user-images.githubusercontent.com/90611639/138871538-5ebe38be-ec6d-4108-93c2-10175b098ad5.png)
+
 Contact me kostyliev-boris@mail.ru for bugs!
