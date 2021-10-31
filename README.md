@@ -1,4 +1,4 @@
-# exitlag-trial-activation-beta
+# exitlag-trial-activator-beta
 Sorry gatolouco!
 
 If it shows it, your account will be activated
