@@ -1,6 +1,8 @@
 # exitlag-trial-activator-beta
 Sorry gatolouco!
 
+pip (or pip3) install tqdm (i forgot to put it on :(( )
+
 If it shows it, your account will be activated
 ![image](https://user-images.githubusercontent.com/90611639/138871579-00128ee9-a926-4845-9df7-9637176c5d2e.png)
 
