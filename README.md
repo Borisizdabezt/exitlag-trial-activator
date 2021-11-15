@@ -1,9 +1,10 @@
 # exitlag-trial-activator-beta
 
 
-pip (or pip3) install tqdm (i forgot to put it on :(( )
-How to use: (only work on GPT disk, exitlag must be installed on C:\)
 
+(only work on GPT disk, exitlag must be installed on C:\)
+
+How to use:
 0. Remember to create a recovery point or u will have bsod (dont panik)
 1. Create a new Exitlag account
 2. Use YourUninstall or RevoUninstall to uninstall Exitlag
