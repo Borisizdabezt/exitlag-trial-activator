@@ -23,7 +23,7 @@ How to use:
 15. Install Exitlag on C:\
 16. Login with your exitlag account at step 1
 17. Enjoy!
-
+18. more.. updating
 
 
 Contact me kostyliev-boris@mail.ru for bugs!
