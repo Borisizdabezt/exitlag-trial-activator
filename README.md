@@ -24,6 +24,6 @@ How to use:
 16. Login with your exitlag account at step 1
 17. Enjoy!
 18. more.. updating
-
+reinstalling iz da bezt
 
 Contact me kostyliev-boris@mail.ru for bugs!
