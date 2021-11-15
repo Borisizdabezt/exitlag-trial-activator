@@ -1,7 +1,7 @@
 # exitlag-trial-activator-beta
 
 
-
+(reinstalling windows iz better than this)
 (only work on GPT disk, exitlag must be installed on C:\)
 
 How to use:
