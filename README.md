@@ -1,5 +1,5 @@
 # exitlag-trial-activator-beta
-Sorry gatolouco!
+
 
 pip (or pip3) install tqdm (i forgot to put it on :(( )
 How to use: (only work on GPT disk, exitlag must be installed on C:\)
