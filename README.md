@@ -15,7 +15,7 @@ How to use:
 7. Open MachineGuid and paste the same HWID that we copy before.
 8. Run CMD as admin
 9. Open ( https://guidgenerator.com/ ) and Generate some GUIDs and copy the result
-10. Type "Diskpart" --> Type "list disk" --> Type "select disk ( write disk number )" --> Type "uniqueid disk" --> Type "uniqueid disk id= " and past the result no space after id= --> Type "exit"
+10. Type "Diskpart" --> Type "list disk" --> Type "select disk ( write disk number )" --> Type "uniqueid disk" --> Type "uniqueid disk id=(your guid at step 9)" no space after id= --> Type "exit"
 11. Type "bcdedit /default "your hwid in step 9""
 12. Type "bcdboot C:\Windows" to be sure that the windows boot thru the new HWID
 13. Reboot and then choose "Windows 10 on volume 'x'" (do not choose windows 10 without on volume "x" or bsod)
