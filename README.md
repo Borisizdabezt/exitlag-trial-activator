@@ -8,7 +8,7 @@ How to use: (only work on GPT disk, exitlag must be installed on C:\)
 2. Use YourUninstall or RevoUninstall to uninstall Exitlag
 3. Open https://www.uuidgenerator.net/ and use Bulk Version 4 UUID Generation by generate 1 HWID and copy it
 4. Go to "Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlS et\Control\IDConfigDB\Hardware Profiles\0001"
-5. Open HwProfileGuid and paste the new HWID between the parentheses { }
+5. Open HwProfileGuid and paste the new HWID between { }
 6. Then go to "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography"
 7. Open MachineGuid and paste the same HWID that we copy before.
 8. Run CMD as admin
