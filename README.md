@@ -13,7 +13,7 @@ How to use: (only work on GPT disk, exitlag must be installed on C:\)
 7. Open MachineGuid and paste the same HWID that we copy before.
 8. Run CMD as admin
 9. Open ( https://guidgenerator.com/ ) and Generate some GUIDs and copy the result
-10. Type "bcdedit /default {"your hwid in step 9"}"
+10. Type "bcdedit /default "your hwid in step 9""
 11. Type "bcdboot C:\Windows" to be sure that the windows boot thru the new HWID
 12. Reboot and then choose "Windows 10 on volume 'x'" (do not choose windows 10 without on volume "x" or bsod)
 13. Download Exitlag
