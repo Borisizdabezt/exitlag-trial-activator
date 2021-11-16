@@ -1,10 +1,5 @@
 # exitlag-trial-activator-beta
 
-
-(reinstalling windows iz better than this)
-
-
-reinstalling iz da bezt
-i'm updating spoofer
+MOVE TO NEW REPOSITORY GUYS! MOVE MOVE MOVE!
 
 Contact me kostyliev-boris@mail.ru for bugs!
